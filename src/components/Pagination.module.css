@@ -1,0 +1,21 @@
+.ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style: none;
+  background-color: #e53735;
+}
+.li {
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.li a {
+  text-decoration: none;
+  color: white;
+}
+.li :hover,
+.li :active,
+.li :focus {
+  color: black;
+}
